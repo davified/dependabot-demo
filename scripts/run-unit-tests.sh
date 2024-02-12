@@ -2,4 +2,4 @@
 
 set -e
 
-pytest tests
+poetry run pytest tests
