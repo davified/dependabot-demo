@@ -1,0 +1,11 @@
+name: CI pipeline
+on: [push]
+jobs:
+  run-tests:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: poetry install
+      - name: Run unit tests
+        run: ./scripts/run-unit-tests.sh
