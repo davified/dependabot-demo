@@ -6,7 +6,7 @@ authors = ["David Tan <davidtan@thoughtworks.com>"]
 packages = [{include = "dependabot_demo", from = "src"}]
 
 [tool.poetry.dependencies]
-pandas = "2.2.1"
+pandas = "2.2.2"
 python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
